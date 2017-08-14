@@ -1,0 +1,34 @@
+/* =========/* ================================ */
+/* 初始化HTML标签及常用类型				*/
+/* Author:			Hulihutu		*/
+/* Copyright:		www.cunctao.com	*/
+/* Create Date:		Apr-01-2012		*/
+/* Retrofit Date:	May-28-2014		*/
+/* ================================ */
+
+
+/* ===============
+ * 重新定义Html元素
+ * =============== */
+html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input { padding: 0; margin: 0;}
+h1, h2, h3, h4, h5, h6, pre, code, address, caption, cite, code, em, strong, table, th, td { font-size: 1em; font-style: normal; font-weight: normal;}
+strong { font-weight: bold;}
+ul, ol { list-style: none outside none;}
+fieldset, img { border: medium none; vertical-align: middle;}
+caption, th {  text-align: left;}
+table { border-collapse: collapse; border-spacing: 0;}
+body { font: 12px/20px microsoft yahei tahoma,arial,"Hiragino Sans GB",宋体,sans-serif,sans-serif; color: #666; background: #FFF none repeat scroll 0 0; min-width: 1200px;}
+input, select, textarea { font: 12px/20px "microsoft yahei";}
+i, cite, em { font-style: normal;}
+input,button,select,textarea{ outline:none}
+html {min-height:101%;}
+
+
+/* 链接 */
+a { color: #333; text-decoration: none; font-family: "Microsoft YaHei";outline: medium none; -webkit-transition-property:color; -webkit-transition-duration: 0.3s; -webkit-transition-timing-function: ease;}
+a:link, a:visited, a:active { text-decoration: none;}
+a:hover { color: #999; text-decoration: none;}
+
+/* 超出隐藏（需要再设置宽高） */
+.over_hidden{ display: block; overflow-x: hidden; overflow-y: hidden; text-overflow: ellipsis; white-space: nowrap;}
+

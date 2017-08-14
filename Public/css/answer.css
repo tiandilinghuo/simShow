@@ -1,0 +1,43 @@
+.steps{width: 1200px;margin: 10px auto 100px;}
+.steps .steps-head{overflow: hidden;height: 40px;line-height: 40px;border-bottom:4px solid #31b0d5}
+.steps .steps-head h3{float:left;width: 300px;background: #31b0d5;text-align:center;font-size: 24px;color: #fff;font-weight: bold;margin-right: 100px;}
+.steps .steps-head p{float:left;width: 450px;height: 30px;line-height:30px;background: #fff;margin-right: 110px;margin-top: 5px;text-align: center;}
+.steps .steps-head p:last-of-type{margin-right: 0;}
+.steps .steps-head p strong,.steps-content .steps-head p span{font-size: 14px;}
+.steps .steps-head p strong{margin-right: 8px;margin-left: 4px;font-size: 16px;}
+.steps .steps-head p span{margin-right: 5px;font-size: 14px;cursor: pointer;}
+.steps .steps-head p span.active{color: red;}
+.steps .steps-head p a{color: #333;font-size: 16px;margin-left: 6px;cursor: pointer;}
+.steps .steps-head p a:hover{color:red;}
+.steps .steps-head p a.active-a{color: red;}
+
+
+.steps-content{width: 1200px;overflow: hidden;margin-top: 10px;position: relative;}
+.steps-content .bg-img{position: absolute;top: 200px;width: 60px;height: 43px;background: url("../images/bg-img.png") no-repeat center center;}
+.img1{left: 270px;}
+.img2{left: 600px;}
+
+.steps-content div{float: left;width: 270px;background: #e6e6e6;border-radius: 5px;height: 500px;overflow-y: auto;}
+.steps-content div h3{height: 36px;line-height: 36px;border-bottom: 1px solid #999;font-size: 16px;text-align: center;color: red;font-weight: bold;}
+.steps-content div ul{margin-top: 10px;margin-bottom: 10px;padding-left: 10px;}
+.steps-content div ul li{width:220px;white-space: nowrap;text-overflow: ellipsis;font-size: 14px;}
+.steps-content div ul li strong{font-weight: normal;}
+.steps-content div ul li span{margin-right: 10px;}
+.steps-content div ul li span i{margin-left: 2px;margin-right: 2px;}
+.steps-content div dl{font-size: 14px;}
+.steps-content div dl dt{height: 36px;line-height: 36px;background: #5cb85c;color: #fff;text-indent: 10px;font-size: 16px;}
+.steps-content div dl dd{text-indent: 10px;height: 24px;line-height: 24px;}
+.steps-content div dl dd em{margin-right: 15px;}
+.steps-content div dl dd span{margin-right: 10px;margin-left:10px;text-indent: 0;}
+.mr100{margin-right: 60px;}
+
+.steps-content div.right{width: 538px;height: 500px;position: relative;}
+.steps-content div.right h4{height: 36px;background: #5cb85c;width: 538px;text-indent: 10px;color: #fff;line-height: 36px;font-size: 14px;}
+.steps-content div.right dl{background: #fff;width: 518px;margin: 10px;padding-bottom: 20px;height: 250px;overflow-y: auto;}
+.steps-content div.right dl dt{background: #fff;color: red;}
+.steps-content div.right dl dd{zoom:1;}
+.steps-content div.right dl dd em{font-weight: bold;float: left;}
+.steps-content div.right dl dd span{float:left;width: 450px;word-wrap: break-word;word-break: break-all;}
+.steps-content div.right .plus-show{position: absolute;bottom: 3px;width:538px;overflow: hidden;height: 40px;}
+.steps-content div.right .plus-show .text{width: 430px;height: 40px;float: left;bottom: 0;text-indent: 10px;font-size: 14px;border: 0;margin-left: 4px;color: #666;}
+.steps-content div.right .plus-show .plus-btn{width: 100px;float: left;height: 40px;border: 0;background: #31b0d5;color: #fff;font-size: 14px;cursor: pointer;}

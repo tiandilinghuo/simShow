@@ -1,0 +1,31 @@
+.steps{width: 1200px;margin: 10px auto 100px;}
+.steps .steps-head{overflow: hidden;height: 40px;line-height: 40px;border-bottom:4px solid #31b0d5}
+.steps .steps-head h3{float:left;width: 300px;text-align:center;background: #31b0d5;font-size: 24px;color: #fff;font-weight: bold;margin-right: 100px;}
+.steps .steps-head p{float:left;height: 30px;line-height:30px;background: #fff;margin-right: 50px;margin-top: 5px;}
+.steps .steps-head p strong,.steps-content .steps-head p span{font-size: 14px;}
+.steps .steps-head p strong{margin-right: 8px;margin-left: 4px;font-size: 16px;}
+.steps .steps-head p span{margin-right: 5px;font-size: 14px;cursor: pointer;}
+.steps .steps-head p span.active{color: red;}
+.steps .steps-head p a{color: #333;font-size: 16px;margin-left: 10px;cursor: pointer;}
+.steps .steps-head p .mr10{margin-right: 10px;}
+.steps .steps-head p .mr200{margin-right: 150px;}
+.steps .steps-head p a:hover{color:red;}
+.steps .steps-head p a.active-a{color: red;}
+.steps .steps-head .fr{float: right;margin-right: 70px;}
+
+.steps .jq-question{}
+.steps .jq-question p{background: #fff;margin-top: 5px;overflow: hidden;line-height: 26px;}
+.steps .jq-question p strong{margin-left: 4px;font-size: 16px;color: red;font-weight: bold;margin-right: 10px;float: left;width: 70px;cursor: pointer;text-align: right;}
+.steps .jq-question p span{font-size: 14px;cursor: pointer;float: left;width: 1100px;word-break: break-all;word-wrap: break-word;display: none;}
+
+.steps-content{width: 1200px;overflow: hidden;margin-top: 10px;}
+.steps-content{width: 1200px;background: #e6e6e6;border-radius: 5px;max-height: 500px;overflow-y: auto;overflow-x: hidden;}
+.steps-content table{margin: 10px;background: #fff;}
+.steps-content table thead{background: #5cb85c;}
+.steps-content table thead th{color: #fff;font-size: 14px;text-align: center;height: 40px;line-height: 40px;border-right: 1px solid #fff;}
+.steps-content table tbody td{border: 1px solid #999;text-align: center;font-size: 14px;line-height: 30px;}
+.steps-content table tbody td a{margin-right: 15px;}
+.steps-content table tbody td a em{color: red;}
+.steps-content table tbody td a:hover{color:#f30;}
+.steps-content table tbody td span{font-size: 14px;}
+.steps-content table tbody .bg-txt{background: #e6e4e5;color: #ff3300;}

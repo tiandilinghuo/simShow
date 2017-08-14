@@ -1,0 +1,56 @@
+.steps{width: 1200px;margin: 10px auto 100px;}
+.steps .steps-head{overflow: hidden;height: 40px;line-height: 40px;border-bottom:4px solid #31b0d5}
+.steps .steps-head h3{float:left;width: 300px;text-align:center;background: #31b0d5;font-size: 24px;color: #fff;font-weight: bold;margin-right: 100px;}
+.steps .steps-head p{float:left;width: 228px;height: 30px;line-height:30px;background: #fff;margin-right: 50px;margin-top: 5px;}
+.steps .steps-head p strong,.steps-content .steps-head p span{font-size: 14px;}
+.steps .steps-head p strong{margin-right: 8px;margin-left: 4px;font-size: 16px;}
+.steps .steps-head p span{margin-right: 5px;font-size: 14px;cursor: pointer;}
+.steps .steps-head p span.active{color: red;}
+.steps .steps-head p a{color: #333;font-size: 16px;margin-left: 10px;cursor: pointer;}
+.steps .steps-head p .mr10{margin-right: 10px;}
+.steps .steps-head p .mr200{margin-right: 80px;}
+.steps .steps-head p a:hover{color:red;}
+.steps .steps-head p a.active-a{color: red;}
+.steps .steps-head .fr{float: right;text-align: center;}
+
+.steps .jq-question{}
+.steps .jq-question p{background: #fff;margin-top: 5px;overflow: hidden;line-height: 26px;}
+.steps .jq-question p strong{margin-left: 4px;font-size: 16px;color: red;font-weight: bold;margin-right: 10px;float: left;width: 70px;cursor: pointer;text-align: right;}
+.steps .jq-question p span{font-size: 14px;cursor: pointer;float: left;width: 1100px;word-break: break-all;word-wrap: break-word;display: none;}
+
+.steps .check-show p{background: #fff;margin-right: 50px;margin-top: 5px;overflow: hidden;line-height: 26px;}
+.steps-content .steps-head p span{font-size: 14px;}
+.steps .check-show p strong{margin-left: 4px;font-size: 16px;color: crimson;font-weight: bold;margin-right: 10px;float: left;width: 70px;text-align: center;}
+.steps .check-show p span{margin-right: 5px;font-size: 14px;cursor: pointer;float: left;}
+.steps .check-show p span.active{color: red;}
+.steps .check-show p a{color: #333;font-size: 16px;margin-left: 10px;cursor: pointer;}
+.steps .check-show p .mr10{margin-right: 10px;}
+.steps .check-show p a:hover{color:red;}
+.steps .check-show p a.active-a{color: red;}
+.steps .check-show .fr{float: right;margin-right: 20px;}
+
+
+.steps-content{width: 1200px;overflow: hidden;margin-top: 10px;position: relative;}
+.steps-content .bg-img{position: absolute;top: 200px;width: 60px;height: 43px;background:#fff;font-size: 40px;line-height: 43px;text-align: center;border: 0;}
+.img1{left: 570px;}
+.steps-content div{float: left;width: 570px;background: #e6e6e6;border-radius: 5px;max-height: 500px;overflow-y: auto;overflow-x: hidden;}
+.steps-content div h3{height: 36px;line-height: 36px;border-bottom: 1px solid #999;font-size: 14px;text-align: center;}
+.steps-content h3 span{color: red;}
+.steps-content div ul{margin-top: 10px;margin-bottom: 10px;padding-left: 10px;}
+.steps-content div ul li{width:220px;white-space: nowrap;text-overflow: ellipsis;font-size: 14px;}
+.steps-content div ul li strong{font-weight: normal;}
+.steps-content div ul li span{margin-right: 10px;}
+.steps-content div ul li span i{margin-left: 2px;margin-right: 2px;}
+.steps-content div dl{font-size: 14px;}
+.steps-content div dl dt{height: 36px;line-height: 36px;background: #5cb85c;color: #fff;text-indent: 10px;font-size: 16px;}
+.steps-content div dl dd{text-indent: 10px;line-height: 24px;overflow: hidden;}
+.steps-content div dl dd em{font-weight: bold;float: left;}
+.steps-content div dl dd span{float:left;margin-right: 10px;margin-left:10px;text-indent: 0;width: 204px;word-break: break-all;word-wrap: break-word;}
+.steps-content div dl dd p{width: 240px;word-break: break-all;word-wrap: break-word;padding: 0 5px;}
+.mr100{margin-right: 60px;}
+.steps-content div table{margin: 10px;background: #fff;}
+.steps-content div table thead{background:#5cb85c;}
+.steps-content div table thead th{color: #fff;font-size: 14px;text-align: center;height: 40px;line-height: 40px;border-right: 1px solid #fff;}
+.steps-content div table tbody td{border: 1px solid #999;text-align: center;font-size: 12px;}
+.steps-content div table span{font-size: 14px;}
+.steps-content div table tbody .bg-txt{background: #e6e4e5;color: #ff3300;}
